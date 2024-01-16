@@ -10,7 +10,9 @@ Make sure you have the required library installed:
 ```bash
 pip install qrcode[pil]
 
-<h2> Usage </h2>
+
+
+ # Usage 
 
 Replace the data_to_encode variable in the script with the data you want to encode.
 Set the output_file_name variable with the desired file name for the generated QR code image.
@@ -19,7 +21,7 @@ The generated QR code will be saved as a PNG image with the specified file name.
 
 python qr_code_encoder.py
 
-<h2> Example Usage <h2>
+# Example Usage 
 
 
 data_to_encode = "Hello, QR Code!"
